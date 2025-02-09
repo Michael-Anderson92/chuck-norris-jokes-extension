@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log("Extension installed, setting up alarm...");
   // Create an alarm that triggers every hour
   chrome.alarms.create('fetchJoke', {
-    periodInMinutes: 60
+    periodInMinutes: 1
   });
   // Fetch a joke immediately when extension is installed
   fetchAndShowJoke();
@@ -17,8 +17,7 @@ async function fetchAndShowJoke() {
     const data = await response.json();
     
     console.log("Joke fetched:", data.value);
-    // Create and show notification
-    chrome.notifications.create({
+    await chrome.notifications.create({
       type: 'basic',
       iconUrl: 'icon48.png',
       title: 'Chuck Norris Joke',
@@ -28,6 +27,7 @@ async function fetchAndShowJoke() {
     console.error('Error fetching joke:', error);
   }
 }
+
 
 // Listen for alarm and fetch joke when it triggers
 chrome.alarms.onAlarm.addListener((alarm) => {

@@ -29,7 +29,7 @@ This simple Hourly Chuck Norris Jokes extension sends a popup in your browser on
       <strong>Sample Joke:</strong>
     </td>
     <td style="width:70%; vertical-align: top;">
-      <img src="/chuck-joke-2" alt="Chuck Norris Joke" style="width: 100%;">
+      <img src="/chuck-joke-2.png" alt="Chuck Norris Joke" style="width: 100%;">
     </td>
   </tr>
   <tr>
@@ -37,7 +37,7 @@ This simple Hourly Chuck Norris Jokes extension sends a popup in your browser on
       <strong>Sample Joke:</strong>
     </td>
     <td style="width:70%; vertical-align: top;">
-      <img src="/chuck-joke-3" alt="Chuck Norris Joke" style="width: 100%;">
+      <img src="/chuck-joke-3.png" alt="Chuck Norris Joke" style="width: 100%;">
     </td>
   </tr>
 </table>

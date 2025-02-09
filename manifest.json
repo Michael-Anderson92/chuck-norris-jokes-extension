@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Hourly Chuck Norris Jokes",
+  "version": "1.0",
+  "description": "Displays a random Chuck Norris joke every hour using api.chucknorris.io",
+  "permissions": [
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

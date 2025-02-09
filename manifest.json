@@ -5,13 +5,21 @@
   "description": "Displays a random Chuck Norris joke every hour using api.chucknorris.io",
   "permissions": [
     "notifications",
-    "alarms"
+    "alarms",
+    "storage"
   ],
   "host_permissions": [
     "https://api.chucknorris.io/"
   ],
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   },
   "icons": {
     "48": "icon48.png",

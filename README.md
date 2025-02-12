@@ -4,7 +4,7 @@
 
 <p align="center"> Created by <a href="https://www.linkedin.com/in/cloud9coding/">Michael Anderson</a> </p>
 
-<p align="center"> <a href="">Click Here to Download Extension</a> </p>
+<p align="center"> <a href="https://chromewebstore.google.com/detail/hourly-chuck-norris-jokes/hkeephamioljcemmijdojphkpjicmkkp">Click Here to Download Extension</a> </p>
 
 <div align="center"> <img src="https://img.shields.io/badge/Portfolio-blue?style=flat&logo=internet-explorer" alt="Portfolio"> <a href="https://www.linkedin.com/in/cloud9coding/"> <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn"> </a> </div>
 

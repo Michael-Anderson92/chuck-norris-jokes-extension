@@ -10,7 +10,7 @@
 
 <div align="center"> <img src="https://img.shields.io/badge/Version-1.0.0-green?style=flat" alt="Version"> </div>
 
-## 📄 Description
+## 📄 Description 
 
 This simple Hourly Chuck Norris Jokes extension sends a popup in your browser once an hour with a random joke. Easy way to put a smile on your face when you are caught up in the business of work!
 
